@@ -54,3 +54,14 @@ The user can play with this from globals.
 This option is located under Globals>Global/BtnRnd.
 This option is **NOT** changeable livetime from the widget. It changes the roundness of the small buttons.
 The user can play with this from globals.
+
+`::--Option:Greetings--::`
+
+This option is located under Globals>Global>Greetings.
+This option enables the greetings text that shows from time to time.
+
+`--::Options:grtntxt--::`
+
+This option is located under Globals>Global/grtntxt.
+This option is **NOT** changeable livetime from the widget. It changes the text that displays when Greetings key is on.
+The user can play with this from globals.
