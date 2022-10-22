@@ -8,13 +8,14 @@ Just ask permission from me(Telegram: @ios7jbpro), and you can make your own rel
 This option is located under Globals>Global/mntflw.
 How it runs is done by linking it to other buttons, by using;
 ```
-$if(
-gv(global/mntflw)=1,
-(gv(monet)),
+>$if(<
+>gv(global/mntflw)=1,<
+>(gv(monet)),<
 (gv(main/buttons/bgcolor)))$
 ```
 This formula checks if global is on, and if it is, uses the color from Global>monet.
 The "bgcolor" part is something else which will be explained also soon in a bit.
+The part between arrows indicate where it's used on.
 
 `::--Option:monet--::`
 
@@ -24,3 +25,16 @@ The formula is;
 $ce(si(wpcolor1), lum, 50)$
 ```
 It's used to pull the wallpaper color.
+
+`::--Option:Color::`
+This option is located under Globals>Global/Color.
+When this is set and Monet(A12) option is off, the UI will use this color instead for such stuff.
+It's done by;
+```
+$if(
+gv(global/mntflw)=1,
+(gv(monet)),
+>(gv(main/buttons/bgcolor)<))$
+```
+The part between arrows indicate where it's used on.
+
