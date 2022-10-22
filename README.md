@@ -26,7 +26,9 @@ $ce(si(wpcolor1), lum, 50)$
 ```
 It's used to pull the wallpaper color.
 
-`::--Option:Color::`This option is located under Globals>Global/Color.
+`::--Option:Color::`
+
+This option is located under Globals>Global/Color.
 When this is set and Monet(A12) option is off, the UI will use this color instead for such stuff.
 It's done by;
 ```
