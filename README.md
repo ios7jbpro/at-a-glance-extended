@@ -26,8 +26,7 @@ $ce(si(wpcolor1), lum, 50)$
 ```
 It's used to pull the wallpaper color.
 
-`::--Option:Color::`
-This option is located under Globals>Global/Color.
+`::--Option:Color::`This option is located under Globals>Global/Color.
 When this is set and Monet(A12) option is off, the UI will use this color instead for such stuff.
 It's done by;
 ```
@@ -39,6 +38,7 @@ gv(global/mntflw)=1,
 The part between arrows indicate where it's used on.
 
 `::--Option:Shadow--::`
+
 This option is located under Globals>Global/Shadow.
 This option changes the amount of shadow/elevation that is displayed under the texts.
 It's done by linking the shadow value on the texts to the global key.
