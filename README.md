@@ -5,14 +5,14 @@ Just ask permission from me(Telegram: @ios7jbpro), and you can make your own rel
 # --Option:Monet(A12)--
 This option is located under Globals>Global/mntflw.
 How it runs is done by linking it to other buttons, by using;
-$if(
+`$if(
 gv(global/mntflw)=1,
 (gv(monet)),
-(gv(main/buttons/bgcolor)))$
+(gv(main/buttons/bgcolor)))$`
 This formula checks if global is on, and if it is, uses the color from Global>monet.
 The "bgcolor" part is something else which will be explained also soon in a bit.
 # --Option:monet--
 This option is located under Globals>monet.
 The formula is;
-$ce(si(wpcolor1), lum, 50)$
+`$ce(si(wpcolor1), lum, 50)$`
 It's used to pull the wallpaper color.
