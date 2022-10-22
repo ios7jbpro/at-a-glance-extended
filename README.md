@@ -48,3 +48,9 @@ It's done by linking the shadow value on the texts to the global key.
 This option is located under Globals>Global/LeftPadd.
 This option is **NOT** changeable livetime from the widget. It changes the left side padding incase if there's anything on the left and needs to be adjusted.
 The user can play with this from globals.
+
+`::--Option:BtnRnd--::`
+
+This option is located under Globals>Global/BtnRnd.
+This option is **NOT** changeable livetime from the widget. It changes the roundness of the small buttons.
+The user can play with this from globals.
