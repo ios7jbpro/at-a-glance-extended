@@ -43,3 +43,8 @@ This option is located under Globals>Global/Shadow.
 This option changes the amount of shadow/elevation that is displayed under the texts.
 It's done by linking the shadow value on the texts to the global key.
 
+`::--Option:LeftPadd--::`
+
+This option is located under Globals>Global/LeftPadd.
+This option is **NOT** changeable livetime from the widget. It changes the left side padding incase if there's anything on the left and needs to be adjusted.
+The user can play with this from globals.
