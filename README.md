@@ -38,3 +38,8 @@ gv(global/mntflw)=1,
 ```
 The part between arrows indicate where it's used on.
 
+`::--Option:Shadow--::`
+This option is located under Globals>Global/Shadow.
+This option changes the amount of shadow/elevation that is displayed under the texts.
+It's done by linking the shadow value on the texts to the global key.
+
