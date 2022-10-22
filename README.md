@@ -99,3 +99,15 @@ This option is located under Globals>Main/Date/Enable.
 This turns on or off the date display.
 
 This option is **NOT** changeable livetime from the widget.
+
+The user can play with this from globals.
+
+`::--Option:Date/TextSize--::`
+
+This option is located under Globals>Main/Date/TextSize.
+
+This is used to change the text size of date display.
+
+This option is **NOT** changeable livetime from the widget.
+
+The user can play with this from globals.
