@@ -60,8 +60,14 @@ The user can play with this from globals.
 This option is located under Globals>Global>Greetings.
 This option enables the greetings text that shows from time to time.
 
-`--::Options:grtntxt--::`
+`::--Options:grtntxt--::`
 
 This option is located under Globals>Global/grtntxt.
 This option is **NOT** changeable livetime from the widget. It changes the text that displays when Greetings key is on.
 The user can play with this from globals.
+
+`::--Options:width&height--::`
+
+These options are located under Globals>Global/*.
+This option is **NOT** changeable livetime from the widget. It changes the widget width and height and by default set to root container size.
+**USER SHOULD NOT PLAY WITH THIS UNLESS THEY ARE USING THE INTEGRATION VERSION.**
