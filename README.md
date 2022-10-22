@@ -111,3 +111,22 @@ This is used to change the text size of date display.
 This option is **NOT** changeable livetime from the widget.
 
 The user can play with this from globals.
+
+`::--Option:Weather/Enable--::`
+This option is located under Globals>Main/Weather/Enable.
+
+This turns on or off the weather display.
+
+This option is **NOT** changeable livetime from the widget.
+
+The user can play with this from globals.
+
+`::--Option:Weather/TextSize--::`
+
+This option is located under Globals>Main/Weather/TextSize.
+
+This is used to change the text size of weather display.
+
+This option is **NOT** changeable livetime from the widget.
+
+The user can play with this from globals.
